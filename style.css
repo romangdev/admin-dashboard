@@ -127,4 +127,91 @@ table {
 .main-content {
   grid-row: 2;
   border: 1px solid red;
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+}
+
+.projects {
+  grid-column: 1;
+  border: 1px solid red;
+  display: grid;
+  grid-template-rows: 1fr 8fr;
+}
+
+.project-header {
+  grid-row: 1;
+  border: 1px solid red;
+}
+
+.project-cards {
+  grid-row: 2;
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 15px;
+  padding: 15px;
+}
+
+.card-1 {
+  grid-row: 1;
+  grid-column: 1;
+  border: 1px solid red;
+}
+
+.card-2 {
+  grid-row: 1;
+  grid-column: 2;
+  border: 1px solid red;
+}
+
+.card-3 {
+  grid-row: 2;
+  grid-column: 1;
+  border: 1px solid red;
+}
+
+.card-4 {
+  grid-row: 2;
+  grid-column: 2;
+  border: 1px solid red;
+}
+
+.card-5 {
+  grid-row: 3;
+  grid-column: 1;
+  border: 1px solid red;
+}
+
+.card-6 {
+  grid-row: 3;
+  grid-column: 2;
+  border: 1px solid red;
+}
+
+.other {
+  grid-column: 2;
+  border: 1px solid red;
+  display: grid;
+  grid-template-rows: 0.86fr 3fr 0.86fr 3fr;
+}
+
+.annc-header {
+  grid-row: 1;
+  border: 1px solid red;
+}
+
+.annc-card {
+  grid-row: 2;
+  border: 1px solid red;
+}
+
+.trending-header {
+  grid-row: 3;
+  border: 1px solid red;
+}
+
+.trending-card {
+  grid-row: 4;
+  border: 1px solid red;
 }
