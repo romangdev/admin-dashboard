@@ -125,6 +125,7 @@ table {
   grid-row: 1;
   display: grid;
   grid-template-rows: 1fr 1.7fr;
+
 }
 
 .main-top a {
@@ -254,7 +255,7 @@ table {
   grid-template-columns: 1fr 35fr;
   background-color: white;
   border-radius: 10px;
-  box-shadow: 6px 6px 7px 1px rgb(157, 157, 157);
+  box-shadow: 6px 6px 7px 1px rgb(181, 181, 181);
 }
 
 .side-color-card {
@@ -347,6 +348,44 @@ table {
 .annc-card {
   grid-row: 2;
   background-color: white;
+  box-shadow: 6px 6px 7px 1px rgb(181, 181, 181);
+  border-radius: 10px;
+  padding: 15px 0;
+}
+
+.annc-card-content {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  height: 100%;
+}
+
+.announcement {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 35px;
+  font-size: 0.9rem;
+}
+
+.announcement h3 {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.announcement-1 {
+  grid-row: 1;
+  border-bottom: 1px solid black;
+}
+
+.announcement-2 {
+  grid-row: 2;
+  border-bottom: 1px solid black;
+  margin-top: 10px;
+}
+
+.announcement-3 {
+  grid-row: 3;
+  margin-top: 10px;
 }
 
 .trending-header {
@@ -360,4 +399,6 @@ table {
 .trending-card {
   grid-row: 4;
   background-color: white;
+  box-shadow: 6px 6px 7px 1px rgb(181, 181, 181);
+  border-radius: 10px;
 }
