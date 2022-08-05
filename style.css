@@ -130,21 +130,49 @@ table {
   grid-template-rows: 1fr 1fr;
 }
 
+.main-top a {
+  color: black;
+}
+
 .main-top-above {
   grid-row: 1;
   border: 1px solid red;
   display: grid;
   grid-template-columns: 2fr 1fr;
+  padding-left: 25px;
 } 
 
 .search-bar {
   grid-column: 1;
-  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-input {
+  width: 90%;
+  height: 25px;
+  margin-left: 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(221, 221, 221);
 }
 
 .notifs {
   grid-column: 2;
-  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 35px;
+}
+
+.notifs * {
+  margin-left: 15px;
+}
+
+.notifs a {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .main-top-below {
