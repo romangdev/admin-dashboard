@@ -125,7 +125,6 @@ table {
 
 .main-top {
   grid-row: 1;
-  border: 1px solid red;
   display: grid;
   grid-template-rows: 1fr 1fr;
 }
@@ -226,18 +225,22 @@ table {
   border: 1px solid red;
   display: grid;
   grid-template-columns: 2.5fr 1fr;
+  background-color: rgb(231, 231, 231);
 }
 
 .projects {
   grid-column: 1;
   border: 1px solid red;
   display: grid;
-  grid-template-rows: 1fr 8fr;
+  grid-template-rows: 1fr 10fr;
 }
 
 .project-header {
   grid-row: 1;
-  border: 1px solid red;
+  margin-left: 15px;
+  display: flex;
+  align-items: end;
+  font-size: 1.2rem;
 }
 
 .project-cards {
@@ -248,6 +251,32 @@ table {
   grid-template-rows: repeat(3, 1fr);
   gap: 15px;
   padding: 15px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 30fr;
+}
+
+.side-color-card {
+  background-color: #f0d904;
+  grid-column: 1;
+}
+
+.main-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
 }
 
 .card-1 {
