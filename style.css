@@ -55,25 +55,65 @@ table {
   display: grid;
   grid-template-columns: 1fr 4fr;
   height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.dashboard a {
+  color: white;
+  text-decoration: none;
 }
 
 .sidebar {
   grid-column: 1;
   border: 1px solid red;
   display: grid;
-  grid-template-rows: 1fr 3fr 3fr;
+  grid-template-rows: 1.2fr 3fr 4.3fr;
+  background-color: #2fa3dd;
+  color: white;
+  padding-left: 20px;
+}
+
+.sidebar li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .logo {
-  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.6rem;
+  align-items: center;
+}
+
+.logo a {
+  margin-left: 10px;
+  font-weight: bold;
 }
 
 .user-pages {
-  border: 1px solid red;
+  font-size: 1.2rem;
+}
+
+.user-pages li {
+  margin-bottom: 20px;
+}
+
+.user-pages a {
+  margin-left: 15px;
 }
 
 .settings-pages {
-  border: 1px solid red;
+  font-size: 1.2rem;
+}
+
+.settings-pages li {
+  margin-bottom: 20px;
+}
+
+.settings-pages a {
+  margin-left: 15px;
 }
 
 .main {
