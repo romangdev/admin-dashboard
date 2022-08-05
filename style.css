@@ -254,6 +254,7 @@ table {
   grid-template-columns: 1fr 35fr;
   background-color: white;
   border-radius: 10px;
+  box-shadow: 6px 6px 7px 1px rgb(157, 157, 157);
 }
 
 .side-color-card {
@@ -330,27 +331,33 @@ table {
 
 .other {
   grid-column: 2;
-  border: 1px solid red;
   display: grid;
-  grid-template-rows: 0.86fr 3fr 0.86fr 3fr;
+  grid-template-rows: 0.86fr 3.4fr 0.86fr 3.4fr;
+  margin: 0 30px 15px 10px;
 }
 
 .annc-header {
   grid-row: 1;
-  border: 1px solid red;
+  display: flex;
+  align-items: end;
+  margin-bottom: 10px;
+  font-size: 1.25rem;
 }
 
 .annc-card {
   grid-row: 2;
-  border: 1px solid red;
+  background-color: white;
 }
 
 .trending-header {
   grid-row: 3;
-  border: 1px solid red;
+  display: flex;
+  align-items: end;
+  margin-bottom: 10px;
+  font-size: 1.25rem;
 }
 
 .trending-card {
   grid-row: 4;
-  border: 1px solid red;
+  background-color: white;
 }
